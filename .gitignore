@@ -1,0 +1,58 @@
+# Build outputs
+**/bin/
+**/obj/
+**/target/
+/dist/
+/outputs/*
+!/outputs/.gitkeep
+
+# Local workspaces, fixtures, diagnostics, and packaging stages
+/work/*
+!/work/.gitkeep
+/TestResults/
+/.coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Restored dependencies and package artifacts
+/node_modules/
+/packages/
+*.nupkg
+*.snupkg
+
+# IDE and user-specific state
+/.vs/
+/.vscode/
+/.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.snk
+credentials.json
+secrets.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.userprefs
+~$*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,28 @@
+* text=auto
+
+# Windows and .NET sources
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.xaml text eol=crlf
+*.ps1 text eol=crlf
+*.nsi text eol=crlf
+
+# Cross-platform source and documentation
+*.rs text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+
+# Binary assets
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.exe binary
+*.dll binary
+*.zip binary
